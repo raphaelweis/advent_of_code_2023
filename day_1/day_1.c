@@ -44,5 +44,7 @@ int main(const int argc, char** argv) {
     } while (c != EOF);
     printf("Part 1: %d\n", sum1);
     printf("Part 2: %d\n", sum2);
+
+    fclose(f);
     return 0;
 }
